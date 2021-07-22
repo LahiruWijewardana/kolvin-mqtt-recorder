@@ -4,7 +4,8 @@
   "description": "MQTT recorder client to record mqtt payloads",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "start": "nodemon ./lib/index.js",
+    "test": "mocha test/index.test.js"
   },
   "keywords": [
     "mqtt",
@@ -14,5 +15,11 @@
     "client"
   ],
   "author": "Lahiru Wijewardana",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "kolvin-node-logger": "^1.0.8",
+    "mocha": "^9.0.2",
+    "mqtt": "^4.2.8",
+    "nodemon": "^2.0.12"
+  }
 }
