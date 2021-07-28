@@ -1,6 +1,6 @@
 {
   "name": "kolvin-mqtt-recorder",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "MQTT recorder client to record mqtt payloads",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,8 @@
     "npm",
     "package",
     "recorder",
-    "client"
+    "client",
+    "kolvin"
   ],
   "author": "Lahiru Wijewardana",
   "license": "MIT",
